@@ -34,13 +34,17 @@ Using neural evolution of augmenting topologies developed a program<br>based on 
 ``` 
 5. Run the program:
 ```
-    $ python bitpass.py 
+    $ python trecognizer.py <data folder path>
 ```
-6. Input the size of the required password
+Example :
 ```
-    Enter total number of characters : 20
+    $ python trecognizer.py data
 ```
-7. A password of the required size will be displayed
-```
-    n8%%<m%>[9mgI451%|cB
-```
+<br>
+Feel free to follow along the code provided along with mentioned comments for 
+<br>better understanding of the project, if any issues feel free to reach me out.
+
+## Contributing
+
+Contributions are welcome!
+<br>Please feel free to submit a Pull Request.
