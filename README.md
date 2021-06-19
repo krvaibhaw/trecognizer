@@ -14,6 +14,11 @@
 
 ![](https://img.shields.io/badge/Python-blue)
 
+<br>
+
+<p align="center">
+<img src="/preview/preview.jpg">
+</p>
 
 Using neural evolution of augmenting topologies developed a program<br>based on computer vision for recognizing traffic lights.
 
