@@ -15,7 +15,7 @@ TEST_SIZE = 0.4
 
 def main():
 
-    # Check command-line arguments
+    # Check for command-line arguments
     if len(sys.argv) not in [2, 3]:
         sys.exit("Usage: python traffic.py data_directory [model.h5]")
 
@@ -23,6 +23,7 @@ def main():
     images, labels = load_data(sys.argv[1])
 
     # Split data into training and testing sets
+    
     labels = tf.keras.utils.to_categorical(labels)
     x_train, x_test, y_train, y_test = train_test_split(
         np.array(images), np.array(labels), test_size=TEST_SIZE
